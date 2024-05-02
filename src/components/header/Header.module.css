@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 392px;
+}
+.logo img {
+    width: 140px;
+}
+.logo2 {
+    display: flex;
+}
