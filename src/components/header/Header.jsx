@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../assets/logo/easyrent.svg";
 import vector from "../../assets/logo/Vector.svg";
 import style from './Header.module.css'

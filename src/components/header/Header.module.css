@@ -6,11 +6,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 392px;
+    width: 392px;margin-left: 1%;
 }
 .logo img {
     width: 140px;
 }
 .logo2 {
     display: flex;
+    margin-right: 1%;
+    justify-content: space-evenly;
+    width: 20%;
 }
