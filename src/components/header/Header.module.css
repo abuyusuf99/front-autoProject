@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -6,14 +12,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 392px;margin-left: 1%;
+    width: 392px;margin-left: 3%;
 }
 .logo img {
     width: 140px;
 }
 .logo2 {
     display: flex;
-    margin-right: 1%;
-    justify-content: space-evenly;
-    width: 20%;
+    margin-right: 3%;
+    justify-content: space-between;
+    /* width: 20%; */
+    width: 395px;
+    align-items: center;
+
 }

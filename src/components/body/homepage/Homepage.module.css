@@ -8,18 +8,23 @@
     display: flex;
     justify-content: space-between;
     width: 40%;
-    margin-left: 1%;
+    margin-left: 3%;
     align-items: center;
+    margin-top: 32px;
+
 }
 .menu a{
     text-decoration: none;
     color: black;
 }
 .language{
-    width: 10%;
+    width: 12%;
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 1%;
+    justify-content: space-around;
+    margin-right: 3%;
+    margin-top: 32px;
+    align-items: center;
+    text-align: center;
 }
 .brand{
     display: flex;
