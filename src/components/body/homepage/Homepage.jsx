@@ -1,9 +1,12 @@
-import React from "react";
 import style from "../homepage/Homepage.module.css";
 import { Link } from "react-router-dom";
 import vector from "../../../image/Vector.svg";
-import rusFlag from '../../../assets/logo/emojione_flag-for-russia.svg'
-import engFlag from '../../../assets/logo/Group.svg'
+import rusFlag from "../../../assets/logo/emojione_flag-for-russia.svg";
+import engFlag from "../../../assets/logo/Group.svg";
+import { Carousel } from "react-bootstrap";
+import Carusel from "./Carousel";
+import CarPark from "./CarPark";
+
 function Homepage() {
   return (
     <>
@@ -42,12 +45,14 @@ function Homepage() {
           </Link>
         </div>
         <div className={style.language}>
-        <img src={rusFlag} alt="" />
-            <span>  Русский</span>
-            <img src={engFlag} alt="" />
-            <span> English</span>
+          <img src={rusFlag} alt="" />
+          <span> Русский</span>
+          <img src={engFlag} alt="" />
+          <span> English</span>
         </div>
       </div>
+      <Carusel />
+      <CarPark />
     </>
   );
 }
