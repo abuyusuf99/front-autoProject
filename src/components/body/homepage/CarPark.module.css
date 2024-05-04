@@ -1,0 +1,61 @@
+.CarPark {
+  width: 90%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.park {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.sort {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+}
+.sort button {
+  border-radius: 8px;
+  color: #a3a3a3;
+  font-size: 20px;
+  padding: 14px 20px;
+  background-color: transparent;
+  border: 2px solid #d4d4d4;
+}
+.search {
+  display: flex;
+  width: 17%;
+  justify-content: space-between;
+}
+.sort img {
+  margin-left: 13px;
+}
+.search button {
+  border-radius: 8px;
+
+  font-size: 20px;
+}
+.searchbutton {
+  background-color: #cfcfcf;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.reset {
+  border: 2px solid #d4d4d4;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #a3a3a3;
+}
+.auto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.autopos img {
+  width: 550px;
+}
+.autopos{
+    margin-top: 30px;
+}

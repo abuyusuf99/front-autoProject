@@ -30,5 +30,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 9%;
+    width: 10%;
+}
+.rodCarusel{
+    margin-top: 1%;
 }
