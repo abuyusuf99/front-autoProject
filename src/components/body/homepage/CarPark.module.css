@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .CarPark {
-  width: 90%;
-  margin-left: 4%;
+  /* width: 90%; */
+ margin: 0 2%;
   margin-top: 4%;
 }
 .park {
@@ -10,7 +15,7 @@
 }
 .sort {
   display: flex;
-  width: 55%;
+  width: 65%;
   justify-content: space-between;
 }
 .sort button {
@@ -23,7 +28,7 @@
 }
 .search {
   display: flex;
-  width: 17%;
+  width: 22%;
   justify-content: space-between;
 }
 .sort img {
@@ -52,10 +57,54 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 40px;
+   
+    
 }
 .autopos img {
-  width: 550px;
+ width: 400px;
+  border-radius: 10px;
 }
 .autopos{
     margin-top: 30px;
+   
 }
+.autoname{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+.name{
+  font-size: 28px;
+}
+.rating{
+  font-size: 20px;
+}
+.autoconfig{
+  display: flex;
+  justify-content: space-between;
+  width: 267px;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.config img{
+  width: 16px;
+  margin-right: 4px;
+}
+.config{
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  padding: 5px;
+  color: #737373;
+  justify-content: space-between;
+}
+.priceblock{
+  margin-top: 20px;
+}
+ .price{
+  font-size: 28px;
+ }
+ .day{
+  color: #737373;
+  font-size:24px ;
+ }

@@ -7,7 +7,7 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
     margin-left: 3%;
     align-items: center;
     margin-top: 32px;
@@ -18,7 +18,7 @@
     color: black;
 }
 .language{
-    width: 12%;
+    width: 16%;
     display: flex;
     justify-content: space-around;
     margin-right: 3%;
