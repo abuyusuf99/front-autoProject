@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
+import autoSlice from "../Features/autoSlice";
 
 
-const reducer = {
-
-}
 export const store = configureStore({
-    reducer
+    reducer :{
+        autoSlice
+    }
 })
