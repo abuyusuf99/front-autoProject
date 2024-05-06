@@ -1,0 +1,12 @@
+.brands{
+    display: flex;
+    margin: 3% 2%;
+}
+.imageBrand img{
+width: 100px;
+}
+.imageBrand{
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
