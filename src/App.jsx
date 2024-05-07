@@ -5,6 +5,7 @@ import Homepage from "./components/body/homepage/Homepage"
 
 
 import Brand from "./components/body/brands/Brand"
+import BrandAuto from "./components/body/brands/BrandAuto"
 
 
 
@@ -18,8 +19,9 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element = {<Homepage/>}/>
+      <Route path="/brand" element={<Brand/>}/>
+      <Route path="/auto/brand/:id" element={<BrandAuto/>}/>
 
-      <Route path="/auto/brand/:id" element={<Brand/>}/>
 
 
 
