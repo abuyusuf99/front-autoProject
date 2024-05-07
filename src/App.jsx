@@ -1,7 +1,11 @@
 import { Route, Routes } from "react-router-dom"
 import Header from "./components/header/Header"
 import Homepage from "./components/body/homepage/Homepage"
+
+
+
 import Brand from "./components/body/brands/Brand"
+
 
 
 
@@ -14,7 +18,11 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element = {<Homepage/>}/>
-      <Route path="brand" element = {<Brand/>}/>
+
+      <Route path="/auto/brand/:id" element={<Brand/>}/>
+
+
+
     </Routes>
     </>
   )

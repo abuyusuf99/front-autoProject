@@ -57,7 +57,7 @@ useEffect(()=>{
             </div>
           </div>
           <div className={style.search}>
-            <button className={style.searchbutton}>Поиск</button>
+            <button title="поиск машины" className={style.searchbutton}>Поиск</button>
             <button className={style.reset}>Сбросить</button>
           </div>
         </div>

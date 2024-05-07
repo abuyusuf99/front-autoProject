@@ -20,6 +20,18 @@ async () =>{
     const auto = await res.json()
     return auto
 }
+);
+
+export const fetchAutoByBrand = createAsyncThunk("autoBrand/fetch", 
+    async (id, thunkAPI) => {
+        try {
+            const res = await fetch(`http://localhost:8500/auto/brand/${id}`)
+            const auto = await res.json()
+            return auto
+        } catch (error) {
+            thunkAPI.rejectWithValue(error)
+        }
+    }
 )
 
 const autoSlice = createSlice({
@@ -31,9 +43,11 @@ const autoSlice = createSlice({
         .addCase(fetchAuto.fulfilled, (state,action)=>{
             state.auto = action.payload
         })
-        .addCase(fetchBrand.fulfilled,(state,action)=>{
-            state.brands = action.payload
-        })
+
+        .addCase(fetchAutoByBrand.fulfilled, (state, action) => {
+            state.auto = action.payload
+
+      
     }
 })
 export default autoSlice.reducer
