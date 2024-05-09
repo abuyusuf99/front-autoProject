@@ -18,7 +18,7 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element = {<Homepage/>}/>
-
+<Route path="/brand" element ={<Brand/>}/>
       <Route path="/auto/brand/:id" element={<Brand/>}/>
 
 

@@ -2,16 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
     auto : [],
-    brands: []
 }
-
-
-export const  fetchBrand = createAsyncThunk("brand/fetch",
-async ()=>{
-    const res = await fetch("http://localhost:8500/brand");
-    const brand = await res.json()
-    return brand
-})
 
 
 export const fetchAuto = createAsyncThunk("auto/fetch",
@@ -44,10 +35,17 @@ const autoSlice = createSlice({
             state.auto = action.payload
         })
 
-        .addCase(fetchAutoByBrand.fulfilled, (state, action) => {
-            state.auto = action.payload
+    .addCase(fetchAutoByBrand.fulfilled, (state, action)=>{
+        state.auto = action.payload
+    })
 
       
+    
     }
 })
+
+
 export default autoSlice.reducer
+
+
+
