@@ -20,9 +20,9 @@ function Brand() {
     <div className={style.brands}>
       {brands.map((item) => {
         return (
-          <div >
+          <div key={item.id} >
             <Link 
-            key={item.id}
+            
             to={`/auto/brand/${item._id}`}
             onClick={() => handleClick(item._id)}
              className={style.imageBrand}>
