@@ -45,6 +45,7 @@ function BrandAuto() {
               </div>
               <div className={style.priceblock}>
                 <span className={style.price}>от {item.price} AED</span>
+                <span className={style.day}> / cутки k</span>
                 <span className={style.day}> / cутки</span>
               </div>
             </div>
